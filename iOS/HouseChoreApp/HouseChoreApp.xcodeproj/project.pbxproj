@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1234567890123456789012A /* HouseChoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789012B /* HouseChoreAppApp.swift */; };
-		A1234567890123456789012C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789012D /* ContentView.swift */; };
-		A1234567890123456789012E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789012F /* Assets.xcassets */; };
-		A1234567890123456789013A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013B /* Preview Assets.xcassets */; };
-		A1234567890123456789013C /* ChoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013D /* ChoreModel.swift */; };
-		A1234567890123456789013E /* ChoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013F /* ChoreListView.swift */; };
-		A1234567890123456789014A /* AddChoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789014B /* AddChoreView.swift */; };
-		A1234567890123456789014C /* ChoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789014D /* ChoreDetailView.swift */; };
+		A1B2C3D4E5F6789012345678 /* HouseChoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345679 /* HouseChoreAppApp.swift */; };
+		A1B2C3D4E5F6789012345680 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345681 /* ContentView.swift */; };
+		A1B2C3D4E5F6789012345682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345683 /* Assets.xcassets */; };
+		A1B2C3D4E5F6789012345684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345685 /* Preview Assets.xcassets */; };
+		A1B2C3D4E5F6789012345686 /* ChoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345687 /* ChoreModel.swift */; };
+		A1B2C3D4E5F6789012345688 /* ChoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345689 /* ChoreListView.swift */; };
+		A1B2C3D4E5F6789012345690 /* AddChoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345691 /* AddChoreView.swift */; };
+		A1B2C3D4E5F6789012345692 /* ChoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6789012345693 /* ChoreDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1234567890123456789012A /* HouseChoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseChoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1234567890123456789012B /* HouseChoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseChoreAppApp.swift; sourceTree = "<group>"; };
-		A1234567890123456789012D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1234567890123456789012F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1234567890123456789013B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A1234567890123456789013D /* ChoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreModel.swift; sourceTree = "<group>"; };
-		A1234567890123456789013F /* ChoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreListView.swift; sourceTree = "<group>"; };
-		A1234567890123456789014B /* AddChoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChoreView.swift; sourceTree = "<group>"; };
-		A1234567890123456789014D /* ChoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetailView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345694 /* HouseChoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseChoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F6789012345679 /* HouseChoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseChoreAppApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345681 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345687 /* ChoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345689 /* ChoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreListView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345691 /* AddChoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChoreView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6789012345693 /* ChoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1234567890123456789012G /* Frameworks */ = {
+		A1B2C3D4E5F6789012345695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,55 +40,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1234567890123456789012H /* HouseChoreApp */ = {
+		A1B2C3D4E5F6789012345696 /* HouseChoreApp */ = {
 			isa = PBXGroup;
 			children = (
-				A1234567890123456789012B /* HouseChoreAppApp.swift */,
-				A1234567890123456789012D /* ContentView.swift */,
-				A1234567890123456789013D /* ChoreModel.swift */,
-				A1234567890123456789013F /* ChoreListView.swift */,
-				A1234567890123456789014B /* AddChoreView.swift */,
-				A1234567890123456789014D /* ChoreDetailView.swift */,
-				A1234567890123456789012F /* Assets.xcassets */,
-				A1234567890123456789013A /* Preview Content */,
+				A1B2C3D4E5F6789012345679 /* HouseChoreAppApp.swift */,
+				A1B2C3D4E5F6789012345681 /* ContentView.swift */,
+				A1B2C3D4E5F6789012345687 /* ChoreModel.swift */,
+				A1B2C3D4E5F6789012345689 /* ChoreListView.swift */,
+				A1B2C3D4E5F6789012345691 /* AddChoreView.swift */,
+				A1B2C3D4E5F6789012345693 /* ChoreDetailView.swift */,
+				A1B2C3D4E5F6789012345683 /* Assets.xcassets */,
+				A1B2C3D4E5F6789012345697 /* Preview Content */,
 			);
 			path = HouseChoreApp;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789013A /* Preview Content */ = {
+		A1B2C3D4E5F6789012345697 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A1234567890123456789013B /* Preview Assets.xcassets */,
+				A1B2C3D4E5F6789012345685 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A1234567890123456789012I /* Products */ = {
+		A1B2C3D4E5F6789012345698 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1234567890123456789012A /* HouseChoreApp.app */,
+				A1B2C3D4E5F6789012345694 /* HouseChoreApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789012J = {
+		A1B2C3D4E5F6789012345699 = {
 			isa = PBXGroup;
 			children = (
-				A1234567890123456789012H /* HouseChoreApp */,
-				A1234567890123456789012I /* Products */,
+				A1B2C3D4E5F6789012345696 /* HouseChoreApp */,
+				A1B2C3D4E5F6789012345698 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1234567890123456789012K /* HouseChoreApp */ = {
+		A1B2C3D4E5F6789012345700 /* HouseChoreApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1234567890123456789012L /* Build configuration list for PBXNativeTarget "HouseChoreApp" */;
+			buildConfigurationList = A1B2C3D4E5F6789012345701 /* Build configuration list for PBXNativeTarget "HouseChoreApp" */;
 			buildPhases = (
-				A1234567890123456789012M /* Sources */,
-				A1234567890123456789012G /* Frameworks */,
-				A1234567890123456789012N /* Resources */,
+				A1B2C3D4E5F6789012345702 /* Sources */,
+				A1B2C3D4E5F6789012345695 /* Frameworks */,
+				A1B2C3D4E5F6789012345703 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,25 +96,25 @@
 			);
 			name = HouseChoreApp;
 			productName = HouseChoreApp;
-			productReference = A1234567890123456789012A /* HouseChoreApp.app */;
+			productReference = A1B2C3D4E5F6789012345694 /* HouseChoreApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1234567890123456789012O /* Project object */ = {
+		A1B2C3D4E5F6789012345704 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A1234567890123456789012K = {
+					A1B2C3D4E5F6789012345700 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A1234567890123456789012P /* Build configuration list for PBXProject "HouseChoreApp" */;
+			buildConfigurationList = A1B2C3D4E5F6789012345705 /* Build configuration list for PBXProject "HouseChoreApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,46 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = A1234567890123456789012J;
-			productRefGroup = A1234567890123456789012I /* Products */;
+			mainGroup = A1B2C3D4E5F6789012345699;
+			productRefGroup = A1B2C3D4E5F6789012345698 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1234567890123456789012K /* HouseChoreApp */,
+				A1B2C3D4E5F6789012345700 /* HouseChoreApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1234567890123456789012N /* Resources */ = {
+		A1B2C3D4E5F6789012345703 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1234567890123456789013A /* Preview Assets.xcassets in Resources */,
-				A1234567890123456789012E /* Assets.xcassets in Resources */,
+				A1B2C3D4E5F6789012345684 /* Preview Assets.xcassets in Resources */,
+				A1B2C3D4E5F6789012345682 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1234567890123456789012M /* Sources */ = {
+		A1B2C3D4E5F6789012345702 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1234567890123456789012C /* ContentView.swift in Sources */,
-				A1234567890123456789013C /* ChoreModel.swift in Sources */,
-				A1234567890123456789013E /* ChoreListView.swift in Sources */,
-				A1234567890123456789014A /* AddChoreView.swift in Sources */,
-				A1234567890123456789014C /* ChoreDetailView.swift in Sources */,
-				A1234567890123456789012A /* HouseChoreAppApp.swift in Sources */,
+				A1B2C3D4E5F6789012345680 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F6789012345686 /* ChoreModel.swift in Sources */,
+				A1B2C3D4E5F6789012345688 /* ChoreListView.swift in Sources */,
+				A1B2C3D4E5F6789012345690 /* AddChoreView.swift in Sources */,
+				A1B2C3D4E5F6789012345692 /* ChoreDetailView.swift in Sources */,
+				A1B2C3D4E5F6789012345678 /* HouseChoreAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1234567890123456789012Q /* Debug */ = {
+		A1B2C3D4E5F6789012345706 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		A1234567890123456789012R /* Release */ = {
+		A1B2C3D4E5F6789012345707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		A1234567890123456789012S /* Debug */ = {
+		A1B2C3D4E5F6789012345708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		A1234567890123456789012T /* Release */ = {
+		A1B2C3D4E5F6789012345709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1234567890123456789012L /* Build configuration list for PBXNativeTarget "HouseChoreApp" */ = {
+		A1B2C3D4E5F6789012345701 /* Build configuration list for PBXNativeTarget "HouseChoreApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1234567890123456789012S /* Debug */,
-				A1234567890123456789012T /* Release */,
+				A1B2C3D4E5F6789012345708 /* Debug */,
+				A1B2C3D4E5F6789012345709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1234567890123456789012P /* Build configuration list for PBXProject "HouseChoreApp" */ = {
+		A1B2C3D4E5F6789012345705 /* Build configuration list for PBXProject "HouseChoreApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1234567890123456789012Q /* Debug */,
-				A1234567890123456789012R /* Release */,
+				A1B2C3D4E5F6789012345706 /* Debug */,
+				A1B2C3D4E5F6789012345707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1234567890123456789012O /* Project object */;
+	rootObject = A1B2C3D4E5F6789012345704 /* Project object */;
 } 
