@@ -5,39 +5,47 @@ struct ChoreDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var chore: Chore
     @State private var isEditing = false
+    @State private var showConfetti = false
     
     init(chore: Chore) {
         _chore = State(initialValue: chore)
     }
     
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                // Header
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        Text(chore.title)
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        Spacer()
-                        
-                        Button(action: {
-                            choreManager.toggleCompletion(for: chore)
-                            if let updatedChore = choreManager.chores.first(where: { $0.id == chore.id }) {
-                                chore = updatedChore
+        ZStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    // Header
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            Text(chore.title)
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                            
+                            Spacer()
+                            
+                            Button(action: {
+                                let wasCompleted = chore.isCompleted
+                                choreManager.toggleCompletion(for: chore)
+                                if let updatedChore = choreManager.chores.first(where: { $0.id == chore.id }) {
+                                    chore = updatedChore
+                                }
+                                
+                                // Show confetti if chore was just completed
+                                if !wasCompleted && chore.isCompleted {
+                                    showConfetti = true
+                                }
+                            }) {
+                                Image(systemName: chore.isCompleted ? "checkmark.circle.fill" : "circle")
+                                    .font(.title)
+                                    .foregroundColor(chore.isCompleted ? .green : .gray)
                             }
-                        }) {
-                            Image(systemName: chore.isCompleted ? "checkmark.circle.fill" : "circle")
-                                .font(.title)
-                                .foregroundColor(chore.isCompleted ? .green : .gray)
                         }
+                        
+                        Text(chore.description)
+                            .font(.body)
+                            .foregroundColor(.secondary)
                     }
-                    
-                    Text(chore.description)
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                }
                 
                 Divider()
                 
@@ -54,6 +62,11 @@ struct ChoreDetailView: View {
                 Spacer()
             }
             .padding()
+        }
+        
+        if showConfetti {
+            ConfettiView(isVisible: $showConfetti)
+        }
         }
         .navigationTitle("Chore Details")
         .navigationBarTitleDisplayMode(.inline)
